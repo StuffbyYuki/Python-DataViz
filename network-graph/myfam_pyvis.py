@@ -6,7 +6,7 @@ got_net = Network(height='750px', width='100%', bgcolor='#222222', font_color='w
 
 # set the physics layout of the network
 got_net.barnes_hut()
-got_data = pd.read_csv('data.csv') # pd.read_csv('/Users/Yuki/Downloads/stormofswords.csv')
+got_data = pd.read_csv('data.csv')
 
 sources = got_data['source']
 targets = got_data['target']

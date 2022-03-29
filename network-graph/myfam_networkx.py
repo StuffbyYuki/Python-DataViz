@@ -3,7 +3,7 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
  
-df = pd.read_csv('data.csv') # pd.DataFrame({ 'from':['A', 'B', 'C','A'], 'to':['D', 'A', 'E','C']})
+df = pd.read_csv('data.csv')
  
 G=nx.from_pandas_edgelist(df, 'source', 'target', edge_attr=True)
  
