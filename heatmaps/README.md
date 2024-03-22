@@ -1,4 +1,7 @@
 # Heatmaps
-- Polars + hvplot ([data source: U.S. Bureau of Labor Statistics](https://data.bls.gov/timeseries/LNS14000000))
+- Polars ([data source: U.S. Bureau of Labor Statistics](https://data.bls.gov/timeseries/LNS14000000))
 
-![image](./hvplot/viz.png)
+    - hvplot
+    ![image](./hvplot/viz.png)
+    - great_tables
+    ![image](./great_tables/viz.png)
